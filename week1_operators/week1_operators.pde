@@ -18,7 +18,8 @@ int l = 2 * 2; // 4
 int m = 1 % 3; // 1
     m = 2 % 3; // 2
     m = 3 % 3; // 0
-    m = 4 % 3; // 0
+    m = 4 % 3; // 1
+    m = 5 % 3; // 2
 
 /*
 -= (subtract assign)
@@ -27,6 +28,8 @@ int m = 1 % 3; // 1
 += (add assign)
 ++ (increment)
 -- (decrement)
+&& (AND)
+|| (OR)
 */
     
 int n = 1;
@@ -53,5 +56,7 @@ println(p > q); // true
 println(p < q); // false
 println(p != q); // true
 println(p == q); // false
+println((p > q) && (q == q)); // true
+
 
 
